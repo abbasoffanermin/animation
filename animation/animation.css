@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#general{
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow: hidden;
+}
+#yol{
+    width: 1349px;
+    height: 667px;
+    background-image: url(yol.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+
+}
+#isiqfor{
+    width: 500px;
+    height: 300px;
+background-image: url(isiqfor.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+ position: relative;
+ left: 390px;
+ top: 98px;
+  
+}
+#car1{
+    background-image: url(car1.png);
+    position: relative;
+    top: 217px;
+   right: 290px;
+    width: 280px;
+    height: 120px;
+ animation-name: car1;
+ animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+
+@keyframes car1 {
+  0%{  
+        left: 0;   
+    }
+    25%{
+        left: 25%;
+    }
+    50%{
+        left: 50%;
+    }
+    75%{
+        right: 75%;
+    }
+    100%{
+        left: 100%;
+   }
+}
+#car2{
+    background-image: url(car2.png);
+    position: relative;
+ bottom: 52px;
+ left: 1500px;
+    width: 295px;
+    height: 135px;
+    animation-name: car2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes car2 {
+    0%{  
+        right: 0;   
+    }
+    25%{
+        left: 25%;
+    }
+    50%{
+       left: 50%;
+    }
+    75%{
+        left: 75%;
+    }
+    100%{
+        left: 100%;
+   }
+}
